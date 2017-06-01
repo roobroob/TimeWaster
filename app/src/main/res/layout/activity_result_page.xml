@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.roope.myapplication.ResultPage">
+
+    <TextView
+        android:text="Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:id="@+id/textViewResult" />
+
+    <TextView
+        android:text="Comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:id="@+id/textViewComment" />
+    <TextView
+        android:text="Tap to retry.\nHold for main menu."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:id="@+id/textViewResultHelp" />
+
+</LinearLayout>

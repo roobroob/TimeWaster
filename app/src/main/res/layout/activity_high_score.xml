@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_high_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.roope.myapplication.HighScoreActivity">
+<!--
+    <TextView
+        android:id="@+id/textViewHigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="result"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewLast"
+        android:layout_below="@+id/textViewHigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="result"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+        -->
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="@string/achievements"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+    <TextView
+        android:id="@+id/textViewExactly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="top|center_horizontal"
+        android:textColor="#ffffff"
+        android:text="Waste Exactly"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView1sec"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:text="1.00"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView2sec"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:text="2.00"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView5sec"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:text="5.00"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView10sec"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:text="10.00"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <!--
+    <TextView
+        android:id="@+id/textViewLeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="13.37"
+        android:textColor="#ff0000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textViewMinute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text=">60.00"
+        android:textColor="#ff0000"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/textView5Minutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text=">300.00"
+        android:textColor="#ff0000"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/textView10Minutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text=">600.00"
+        android:textColor="#ff0000"
+        android:textSize="25sp" />
+        -->
+    <TextView
+        android:id="@+id/textViewInARow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="Waste Consecutively"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/textView2x1sec"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="2x1.00"
+        android:textColor="#ff0000"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/textView2x2sec"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="2x2.00"
+        android:textColor="#ff0000"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/textView2x5sec"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="2x5.00"
+        android:textColor="#ff0000"
+        android:textSize="25sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textViewTwoHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="Waste 2.00 100 times"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textViewTwoCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:text="100 x 2.00"
+        android:textColor="#ff0000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textViewMoreThan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="top|center_horizontal"
+        android:textColor="#ffffff"
+        android:text="Waste more than"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textViewMore10sec"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:text=">10"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView60sec"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:text=">60"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView200sec"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:text=">200"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView600sec"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:text=">600"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Total"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+<!--
+    <Button
+        android:text="Clear Scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="resetScores"/>
+-->
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Time Waster</string>
+
+    <string name="title_activity_the_game">TheGameActivity</string>
+    <string name="The_Game_Name">Time Waster</string>
+    <string name="shared_pref">high_scores</string>
+    <string name="longest_time">longest_time</string>
+    <string name="last_time">last_time</string>
+    <string name="achievements">Achievements</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>
